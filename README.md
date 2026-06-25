@@ -1026,33 +1026,7 @@ ngspice spice/amux21_tb.sp
 
 The AI-assisted approach successfully reduces the mixed-signal flow from a ~3-day manual exercise to roughly **6–8 hours** of AI-guided work with targeted prompts, error-driven refinement, and tool verification. The prompts themselves serve as a **reproducible specification** — another engineer can rerun the exact same prompts and reproduce all generated files independently.
 
-### GitHub Documentation Structure
-
-```
-AI-Assisted-Mixed-Signal-Flow/
-├── README.md                    ← Top-level overview
-├── docs/
-│   ├── Week2_3_Report.md        ← This document
-│   └── prompt_versions/
-│       ├── B1-P1_v1.0.txt
-│       ├── B4a-P1_v1.1.txt
-│       └── ...
-├── generated_files/
-│   ├── amux21.lef
-│   ├── amux21.lib
-│   ├── amux21.spice
-│   ├── amux21_blackbox.v
-│   ├── amux_wrapper.v
-│   ├── config.json
-│   └── macro_placement.cfg
-├── scripts/
-│   └── gen_amux21.tcl
-└── results/
-    ├── screenshots/
-    └── logs/
-```
-
----
+#
 
 *Report prepared as part of AI-Assisted Mixed-Signal Physical Design Internship — Weeks 2 & 3*
 *Tools: Claude (Anthropic), ChatGPT (OpenAI GPT-4o), OpenLane 2, Magic, Netgen, ngspice, KLayout*
