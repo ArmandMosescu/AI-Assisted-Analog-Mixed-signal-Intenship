@@ -1,8 +1,6 @@
 # Week 2 & 3 Report — AI-Assisted Mixed-Signal RTL-to-GDS Flow
 **Internship Task 2 | SKY130 + OpenLane | Analog 2:1 AMUX IP**
 **Reference Repo:** [vsdmixedsignalflow](https://github.com/praharshapm/vsdmixedsignalflow)
-**Documentation Repo:** [AI-Assisted-Analog-Mixed-signal-Intenship](https://github.com/Indhumuraliraj/AI-Assisted-Analog-Mixed-signal-Intenship)
-
 ---
 
 ## Table of Contents
